@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  font-family: Bai Jamjuree;
+  background-image: url(images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.top-title {
+  margin: 0 auto;
+  width: 350px;
+  padding: 100px 10px 40px 10px;
+}
+.top-title img {
+  padding-bottom: 30px;
+}
+.top-title h1 {
+  opacity: 0.7;
+  font-weight: 600;
+  font-size: 35px;
+  width: 340px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.top-title p {
+  width: 310px;
+  margin: 0 auto;
+  opacity: 0.6;
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 120px;
+}
+.green {
+  text-decoration: none;
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  padding: 15px 45px 15px 45px;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 30px;
+  box-shadow: 1px 3px 2px 0px lightgray;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.green:hover {
+  background-color: hsl(171, 47%, 60%);
+}
+
+.blue {
+  text-decoration: none;
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  padding: 15px 45px 15px 45px;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 30px;
+  box-shadow: 1px 3px 2px 0px lightgray;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.blue:hover {
+  background-color: hsl(233, 100%, 74%);
+}
+
+.features {
+  padding: 120px 10px 30px 10px;
+}
+h1,
+h2 {
+  opacity: 0.7;
+}
+.features p {
+  opacity: 0.6;
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.inside-img img {
+  width: 300px;
+  margin-top: 20px;
+}
+.inside-img2 img {
+  width: 300px;
+  margin-top: 20px;
+}
+.interior-container {
+  padding: 20px;
+}
+.interior-container p {
+  opacity: 0.6;
+  width: 300px;
+  margin: 0 auto;
+  line-height: 25px;
+}
+.companies {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  margin: 0 auto;
+  padding-top: 100px;
+  gap: 60px;
+}
+
+.sub-features2 {
+  margin-top: 50px;
+}
+.sub-features2 h3 {
+  opacity: 0.86;
+}
+.sub-features2 p {
+  opacity: 0.7;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.big-footer {
+  background-color: rgb(241, 239, 239);
+  display: flex;
+  flex-direction: column;
+}
+.sub-links {
+  display: flex;
+  flex-direction: column;
+}
+.sub-links a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+}
+.sub-links a:hover {
+  color: hsl(171, 66%, 44%);
+}
+.footer-logo img {
+  width: 70px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.social-media {
+  padding-top: 50px;
+}
+.social-media a {
+  margin: 10px;
+  font-size: 30px;
+  color: black;
+}
+.social-media a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 1024px) {
+  .top-title {
+    width: 600px;
+  }
+
+  .top-title p {
+    width: 550px;
+  }
+
+  .features p {
+    width: 600px;
+  }
+
+  .buttons {
+    flex-direction: row;
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .inside-img img {
+    width: 650px;
+    transform: translateX(-150px);
+  }
+  .inside-img2 img {
+    width: 650px;
+  }
+
+  .sub-features {
+    margin-left: -100px;
+  }
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+  }
+  .companies {
+    flex-direction: row;
+    justify-content: center;
+    width: 1200px;
+  }
+  .interior-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    gap: 60px;
+    padding-left: 100px;
+  }
+  .links {
+    display: flex;
+    gap: 60px;
+    padding-top: 30px;
+  }
+  .footer-logo img {
+    width: 70px;
+  }
+  .social-media {
+    margin: 0 auto;
+    padding: 0;
+    transform: translateY(-25px);
+  }
+  .buttons {
+    padding-bottom: 50px;
+  }
+
+  .special-resize {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    background-image: url(images/bg-header-desktop.png);
+  }
+  .inside-img img {
+    width: 750px;
+    transform: translateX(-260px);
+  }
+
+  .social-media {
+    transform: translatex(100px);
+  }
+}
