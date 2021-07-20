@@ -243,7 +243,8 @@ h2 {
   }
 
   .special-resize {
-    width: 350px;
+    width: 180px;
+    height: 40px;
   }
 }
 
@@ -253,7 +254,7 @@ h2 {
   }
   .inside-img img {
     width: 750px;
-    transform: translateX(-260px);
+    transform: translateX(-360px);
   }
 
   .social-media {
